@@ -9,7 +9,8 @@ export default <Partial<Config>>{
         video: '16 / 9'
       },
       colors: {
-        Green: '#ff0000',
+        Primary: '#FE6728',
+        DarkPrimary:'#1F2937'
       }
     }
   }
