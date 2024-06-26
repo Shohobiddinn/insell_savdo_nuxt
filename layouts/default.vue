@@ -1,0 +1,5 @@
+
+<template>
+    <LayoutsNavbar />
+    <NuxtPage />
+</template>
