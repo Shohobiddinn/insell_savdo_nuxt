@@ -26,4 +26,7 @@ export default defineNuxtConfig({
   css: [
     '~/assets/scss/tailwind.css'
   ],
+  plugins: [
+    { src: '~/plugins/video-youtube.js', mode: 'client' }
+  ]
 })
