@@ -1,5 +1,5 @@
 <template>
-    <LayoutsHeader />
-    <LayoutsServices />
-    <!-- <LayoutsFooter /> -->
+    <LayoutsAbout />
+    <!-- <LayoutsHeader />
+    <LayoutsFooter /> -->
 </template>

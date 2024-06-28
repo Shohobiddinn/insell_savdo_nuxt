@@ -10,7 +10,8 @@ export default <Partial<Config>>{
       },
       colors: {
         Primary: '#FE6728',
-        DarkPrimary:'#1F2937'
+        DarkPrimary: '#313C59',
+        PWhite: '#FFFFFF'
       }
     }
   }
