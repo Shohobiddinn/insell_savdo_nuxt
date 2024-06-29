@@ -1,5 +1,4 @@
 <template>
     <LayoutsAbout />
-    <!-- <LayoutsHeader />
-    <LayoutsFooter /> -->
+    <LayoutsTradeTypes />
 </template>

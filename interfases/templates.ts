@@ -1,4 +1,4 @@
-export interface ServiceType{
+export interface ServiceType {
     img: string;
     text: string;
 }
@@ -61,4 +61,54 @@ export const templates: Ref<ServiceType[]> = ref([
     },
 
 
+])
+export interface tradeTypes {
+    title: string
+}
+export const Trade: Ref<tradeTypes[]> = ref([
+    {
+        title: 'Dori Darmon savdosi.'
+    },
+    {
+        title: 'Mato savdosi'
+    },
+    {
+        title: 'Attorlik mahsulotlari savdosi.'
+    },
+    {
+        title: 'Oziq ovqat mahsulorlari. '
+    },
+    {
+        title: 'Xo’jalik Mollari savdosi.'
+    },
+    {
+        title: 'Gilam savdosi.'
+    },
+    {
+        title: 'Telefon aksesuar savdosi.'
+    },
+    {
+        title: 'Komputer Texnika savdosi.'
+    },
+    {
+        title: 'Maishiy Texnika savdosi.'
+    },
+    {
+        title: 'Gul buket savdosi.'
+    },
+    {
+        title: 'Mebel savdosi.'
+    },
+    {
+        title: 'Kiyim Kechak savdosi.'
+    },
+    {
+        title: 'Avtomobil ehtiyot qismlari savdosi.'
+    },
+    {
+        title: 'Kitob va konstavar savdosi.'
+    },
+    {
+        title: 'Sport jihozlari savdosi.'
+    },
 ])

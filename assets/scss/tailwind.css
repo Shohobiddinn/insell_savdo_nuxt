@@ -4,10 +4,14 @@
 .title{
     @apply text-white;
     @apply font-bold;
-    @apply text-2xl;
 }
 .paragrf{
     @apply text-white;
     @apply font-normal;
     @apply text-xl;
+}
+.container{
+    @apply mx-auto;
+    @apply pt-3;
+    @apply pb-2;
 }

@@ -1,10 +1,11 @@
 <script setup lang="ts">
+import YouTube from 'vue3-youtube';
 
 </script>
 
 <template>
     <div class="container mx-auto pt-3 pb-2">
-        <div class="flex justify-between items-start">
+        <div class="flex justify-between items-center">
             <div class="col">
                 <h2 class="title">
                     Dastur haqida
@@ -20,11 +21,10 @@
                 </p>
             </div>
             <div class="col">
-                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/uv0LekSBlAc?si=i94awOcogVsU5WLd"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-                    <youtube video-id="https://www.youtube.com/watch?v=uv0LekSBlAc" />
+                <div class="rounded-3xl  overflow-hidden">
+
+                    <SharedYoutubeVideo videoUrl="https://youtu.be/uv0LekSBlAc?si=kmilK5t0Kp9RrjUw" />
+                </div>
             </div>
         </div>
     </div>
