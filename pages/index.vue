@@ -3,4 +3,5 @@
   <LayoutsTradeTypes />
   <LayoutsCustomerFeedback />
   <LayoutsInselInfo />
+  <LayoutsHowStart />
 </template>
