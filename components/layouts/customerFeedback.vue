@@ -29,7 +29,7 @@ let forLength = 4;
       </div>
       <div class="text-center mt-5 mb-3">
         <button
-          class="rounded-[5px] bg-[#313C59] py-2 px-5 text-white text-lg font-semibold"
+          class="rounded-[5px] bg-[#313C59] py-2 px-8 text-white text-lg font-semibold"
           @click='forLength = 8'
         >
           YANA
