@@ -26,4 +26,10 @@ export default defineNuxtConfig({
   css: [
     '~/assets/scss/tailwind.css'
   ],
+  build: {
+    transpile: ['vue3-youtube']
+  },
+  plugins: [
+    { src: '~/plugins/video-youtube.js', mode: 'client' }
+  ],
 })

@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev",
+    "dev": "nuxt dev --host",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
@@ -12,7 +12,8 @@
   "dependencies": {
     "@nuxt/image": "^1.7.0",
     "@nuxt/ui": "^2.17.0",
-    "nuxt": "^3.12.2"
+    "nuxt": "^3.12.2",
+    "vue3-youtube": "^0.1.9"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.19",
