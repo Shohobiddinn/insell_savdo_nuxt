@@ -5,9 +5,9 @@ import YouTube from 'vue3-youtube';
 
 <template>
     <div class="container mx-auto pt-3 pb-2">
-        <div class="flex justify-between items-center">
+        <div class="flex justify-between items-start">
             <div class="col">
-                <h2 class="title">
+                <h2 class="title text-3xl mb-3">
                     Dastur haqida
                 </h2>
                 <p class="paragrf">
