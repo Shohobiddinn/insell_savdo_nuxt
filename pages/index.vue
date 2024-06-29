@@ -1,5 +1,6 @@
 <template>
-    <LayoutsAbout />
-    <LayoutsTradeTypes />
-    <LayoutsCustomerFeedback />
+  <LayoutsAbout />
+  <LayoutsTradeTypes />
+  <LayoutsCustomerFeedback />
+  <LayoutsInselInfo />
 </template>
