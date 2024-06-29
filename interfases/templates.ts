@@ -112,3 +112,34 @@ export const Trade: Ref<tradeTypes[]> = ref([
         title: 'Sport jihozlari savdosi.'
     },
 ])
+export interface customerFeedback {
+    url: string;
+    text: string;
+}
+export const Customer: Ref<customerFeedback[]> = ref([
+    {
+        url: 'https://youtu.be/uv0LekSBlAc?si=kmilK5t0Kp9RrjUw',
+        text: 'Royal Garden Gul buket do’koni.'
+    },
+    {
+        url: 'https://youtu.be/uv0LekSBlAc?si=kmilK5t0Kp9RrjUw',
+        text: 'Royal Garden Gul buket do’koni.'
+    },
+    {
+        url: 'https://youtu.be/uv0LekSBlAc?si=kmilK5t0Kp9RrjUw',
+        text: 'Royal Garden Gul buket do’koni.'
+    },
+    {
+        url: 'https://youtu.be/uv0LekSBlAc?si=kmilK5t0Kp9RrjUw',
+        text: 'Royal Garden Gul buket do’koni.'
+    },
+    {
+        url: 'https://youtu.be/uv0LekSBlAc?si=kmilK5t0Kp9RrjUw',
+        text: 'Royal Garden Gul buket do’koni.'
+    },
+    {
+        url: 'https://youtu.be/uv0LekSBlAc?si=kmilK5t0Kp9RrjUw',
+        text: 'Royal Garden Gul buket do’koni.'
+    },
+
+])

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
@@ -20,7 +21,6 @@
             </div>
             <div class="col">
                 <div class="rounded-3xl  overflow-hidden">
-
                     <SharedYoutubeVideo videoUrl="https://youtu.be/uv0LekSBlAc?si=kmilK5t0Kp9RrjUw" />
                 </div>
             </div>
