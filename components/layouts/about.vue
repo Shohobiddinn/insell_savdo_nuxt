@@ -28,5 +28,4 @@ import YouTube from 'vue3-youtube';
             </div>
         </div>
     </div>
-  </div>
 </template>
