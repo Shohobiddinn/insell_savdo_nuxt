@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import YouTube from 'vue3-youtube';
-
 </script>
 
 <template>

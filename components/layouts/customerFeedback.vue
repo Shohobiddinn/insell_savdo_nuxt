@@ -9,12 +9,12 @@
             </div>
             <div class="mt-5">
                 <div class="w-3/12">
-                    <div>
+                    <div class="text-center">
                         <div>
                             <SharedYoutubeVideo videoUrl="https://youtu.be/uv0LekSBlAc?si=kmilK5t0Kp9RrjUw" />
 
                         </div>
-                        <h2 class="title">Royal Garden Gul buket do’koni</h2>
+                        <h2 class="title mt-3">Royal Garden Gul buket do’koni</h2>
                     </div>
                 </div>
             </div>
