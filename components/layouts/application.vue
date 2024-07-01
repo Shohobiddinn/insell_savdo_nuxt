@@ -1,4 +1,8 @@
-<script setup lang="ts">
+<script setup>
+//import { ref } from 'vue'
+//import { RecaptchaInstance } from 'vue-recaptcha'
+//const recaptchaRef = ref < RecaptchaInstance | null > (null)
+
 import { Trade } from "~/interfases/templates";
 const state = reactive({
   email: undefined,
@@ -6,15 +10,19 @@ const state = reactive({
 });
 const FORMSPARK_ACTION_URL = "https://submit-form.com/your-form-id";
 async function onSubmit() {
-  await fetch(FORMSPARK_ACTION_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Accept: "application/json",
-    },
-    body: JSON.stringify(state),
-  });
-  alert("Form submitted");
+  console.log(recaptchaRef.value);
+  // if (recaptchaRef.value) {
+  //   recaptchaRef.value.execute()
+  // }
+  // await fetch(FORMSPARK_ACTION_URL, {
+  //   method: "POST",
+  //   headers: {
+  //     "Content-Type": "application/json",
+  //     Accept: "application/json",
+  //   },
+  //   body: JSON.stringify(state),
+  // });
+  // alert("Form submitted");
 }
 </script>
 <template>
@@ -48,7 +56,8 @@ async function onSubmit() {
                 </option>
               </select>
             </div>
-
+            <!-- <vue-recaptcha ref="recaptcha" @verify="onRecaptchaVerify"
+              sitekey="YOUR_RECAPTCHA_SITE_KEY"></vue-recaptcha> -->
             <button type="submit"
               class="btn bg-DarkPrimary  border-[2px] border-white text-white font-bold hover:text-Primary w-100 mt-3">Tasdiqlash</button>
           </form>
