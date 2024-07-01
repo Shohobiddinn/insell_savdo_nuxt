@@ -1,7 +1,8 @@
 <template>
-  <LayoutsAbout />
+  <!-- <LayoutsAbout />
   <LayoutsTradeTypes />
   <LayoutsCustomerFeedback />
   <LayoutsInselInfo />
-  <LayoutsHowStart />
+  <LayoutsHowStart /> -->
+  <LayoutsApplication />
 </template>

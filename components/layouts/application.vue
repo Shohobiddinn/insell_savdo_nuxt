@@ -26,45 +26,39 @@ async function onSubmit() {
       <div>
         <h2 class="title text-center text-[45px]">Ariza qoldirish.</h2>
       </div>
-      <div class="mt-5 mb-3 flex flex-wrap justify-center items-center">
-        <div class="bg-primary">
+      <div class="row mt-5">
+        <div class="col bg-DarkPrimary p-4 rounded-md">
           <form @submit.prevent="onSubmit">
             <div class="fieldset">
-              <label for="name">ISM</label>
-              <input type="text" id="name" name="name" required />
+              <label class="text-white" for="name">ISM</label>
+              <input type="text" id="name" name="name" required class="form-control" />
             </div>
 
             <div class="fieldset">
-              <label for="email">Telefon raqam</label>
-              <input type="tel" id="email" name="email" required />
+              <label class="text-white" for="email">Telefon raqam</label>
+              <input type="tel" id="email" name="email" required class="form-control" />
             </div>
 
             <div class="fieldset">
-              <label for="message">Yo’nalish</label>
-              <select id="message">
-                <option
-                  v-for="(item, idx) in Trade"
-                  :key="idx"
-                  :value="item.title"
-                >
+              <label class="text-white" for="message">Yo’nalish</label>
+              <select id="message" class="form-control">
+                <option v-for="(item, idx) in Trade" :key="idx" :value="item.title">
                   {{ item.title }}
                 </option>
               </select>
             </div>
 
-            <button type="submit">Jo'n</button>
+            <button type="submit" class="btn btn-success w-100 mt-3">Jo'natish</button>
           </form>
+        </div>
+        <div class="col">
+          <h4 class="title text-[25px]">Shuningdek quyidagi raqam orqali biz bilan <br> bog’lanishingiz mumkin.</h4>
+          
         </div>
       </div>
     </div>
   </div>
-</template>
 
-
-    </div>
-    </div>
-    </div>
-  </div>
   <div class="relative h-[97px]">
     <NuxtImg src="/Wave 2.png" class="absolute w-full" />
   </div>
