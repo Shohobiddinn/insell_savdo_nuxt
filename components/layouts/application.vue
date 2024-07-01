@@ -42,18 +42,25 @@ async function onSubmit() {
             <div class="fieldset">
               <label class="text-white" for="message">Yo’nalish</label>
               <select id="message" class="form-control">
+                <option value="">Yo'nalish tanlang</option>
                 <option v-for="(item, idx) in Trade" :key="idx" :value="item.title">
                   {{ item.title }}
                 </option>
               </select>
             </div>
 
-            <button type="submit" class="btn btn-success w-100 mt-3">Jo'natish</button>
+            <button type="submit" class="btn bg-Primary text-white w-100 mt-3">Jo'natish</button>
           </form>
         </div>
         <div class="col">
           <h4 class="title text-[25px]">Shuningdek quyidagi raqam orqali biz bilan <br> bog’lanishingiz mumkin.</h4>
-          
+
+          <div class="mt-5 flex justify-center items-center flex-col">
+            <div class="w-[100px] h-[100px] rounded-md bg-white flex items-center justify-center text-Primary">
+              <i class="fas fa-phone text-5xl"></i>
+            </div>
+            <a href="tel:+998335190901" class="title text-3xl mt-3">+998 (33) 519 09 01</a>
+          </div>
         </div>
       </div>
     </div>

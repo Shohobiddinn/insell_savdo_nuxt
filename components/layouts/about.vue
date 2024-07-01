@@ -18,6 +18,7 @@
                     kiritish xizmati mavjud. Bu xizmatdan foydalanib, “MAHSUS DASTUR” ni premium foydalanuvchi sifati
                     o’zingiz istaganingizdek buyurtma berishingiz mumkin.
                 </p>
+                
             </div>
             <div class="col">
                 <div class="rounded-3xl  overflow-hidden">

@@ -1,6 +1,44 @@
 <template>
   <div>
-    <div class="bg-pBlue pb-[20px] max-[400px]:pb-[40px]">
+    <div class="container">
+      <h3 class="title text-center text-4xl my-5">Bizning manzillar</h3>
+      <div class="row">
+        <div class="title text-2xl col">
+          <a href="https://www.instagram.com/insellsavdo/" target="_blank">
+            <i class="fa-brands fa-instagram"></i> insell savdo dasturi
+          </a>
+        </div>
+        <div class="title text-2xl col">
+          <a href="https://www.youtube.com/@Insell_savdo" target="_blank">
+            <i class="fa-brands fa-youtube"></i> insell
+          </a>
+        </div>
+        <div class="title text-2xl col">
+          <a href="https://t.me/crud_admin" target="_blank">
+            <i class="fa-brands fa-telegram"></i> @insellsavdo
+          </a>
+        </div>
+        <div class="title text-2xl col">
+          <a href="" target="_blank">
+            <i class="fa-brands fa-facebook"></i> insell savdo
+          </a>
+        </div>
+      </div>
+      <div class="w-full my-5 rounded-xl overflow-hidden">
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d728.5412733952755!2d71.78535141668807!3d40.38245007672562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb835fea40bfb1%3A0xa434bb29ad85e828!2z0KTQtdGA0LPQsNC90LAsINCk0LXRgNCz0LDQvdGB0LrQsNGPINCe0LHQu9Cw0YHRgtGMLCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1719819731347!5m2!1sru!2s"
+          width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="flex justify-between pb-3">
+        <NuxtImg src="/insell.png" width="200" fit="contain" />
+        <h1 class="title text-3xl text-center">Barcha huquqlar himoyalangan . <br> Dastur CRUD Developer MCHJ ga
+          tegishli.</h1>
+        <NuxtImg src="/crud.png" width="200" fit="contain" />
+      </div>
+    </div>
+    <!-- <div class="bg-pBlue pb-[20px] max-[400px]:pb-[40px]">
       <div class="container">
         <div
           class="mb-10 flex w-full justify-between max-[600px]:flex max-[600px]:items-center max-[600px]:justify-start"
@@ -99,16 +137,14 @@
           </h1>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
-  
+
 <script>
-import "../../map";
 export default {
   data() {
     return {
-      map: null,
     };
   },
   components: {},
