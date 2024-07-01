@@ -25,15 +25,17 @@
         </div>
       </div>
       <div class="w-full my-5 rounded-xl overflow-hidden">
-
-        <iframe
+        <iframe src="https://yandex.com/maps/?um=constructor%3AYourConstructorIDHere&source=constructor" width="600"
+          height="400" frameborder="0">
+        </iframe> 
+        <!-- <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d728.5412733952755!2d71.78535141668807!3d40.38245007672562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bb835fea40bfb1%3A0xa434bb29ad85e828!2z0KTQtdGA0LPQsNC90LAsINCk0LXRgNCz0LDQvdGB0LrQsNGPINCe0LHQu9Cw0YHRgtGMLCDQo9C30LHQtdC60LjRgdGC0LDQvQ!5e0!3m2!1sru!2s!4v1719819731347!5m2!1sru!2s"
           width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"></iframe>
+          referrerpolicy="no-referrer-when-downgrade"></iframe> -->
       </div>
       <div class="flex justify-between pb-3">
         <NuxtImg src="/insell.png" width="200" fit="contain" />
-        <h1 class="title text-3xl text-center">Barcha huquqlar himoyalangan . <br> Dastur CRUD Developer MCHJ ga
+        <h1 class="title text-2xl text-center">Barcha huquqlar himoyalangan . <br> Dastur CRUD Developer MCHJ ga
           tegishli.</h1>
         <NuxtImg src="/crud.png" width="200" fit="contain" />
       </div>
