@@ -10,25 +10,19 @@ let forLength = 4;
           INSELL Savdo dasturi?
         </h2>
       </div>
-      <div
-        class="mt-5 mb-3 grid grid-rows-4 grid-flow-col gap-4 grid-rows-4 sm:grid-rows-2 md:grid-rows-1"
-      >
+      <div class="mt-5 mb-3 grid grid-rows-4 grid-flow-col gap-4 grid-rows-4 sm:grid-rows-2 md:grid-rows-1">
         <div class="" v-for="item in forLength" :key="item">
           <div class="text-center">
-            <div>
-              <SharedYoutubeVideo
-                videoUrl="https://youtu.be/uv0LekSBlAc?si=kmilK5t0Kp9RrjUw"
-              />
+            <div class="rounded-xl overflow-hidden">
+              <SharedYoutubeVideo videoUrl="https://youtu.be/uv0LekSBlAc?si=kmilK5t0Kp9RrjUw" />
             </div>
             <h2 class="title mt-3">mijzolarga habar yuborish</h2>
           </div>
         </div>
       </div>
       <div class="text-center mt-5 mb-3">
-        <button
-          class="rounded-[5px] bg-[#313C59] py-2 px-8 text-white text-lg font-semibold border border-inherit"
-          @click="forLength = 8"
-        >
+        <button class="rounded-[5px] bg-[#313C59] py-2 px-8 text-white text-lg font-semibold border border-inherit"
+          @click="forLength = 8">
           YANA
         </button>
       </div>

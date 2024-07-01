@@ -19,9 +19,9 @@ async function onSubmit() {
 </script>
 <template>
   <div class="relative h-[97px]">
-    <NuxtImg src="/feedback.png" class="absolute w-full" />
   </div>
-  <div class="bg-[#D66235] dark:bg-[#D66235]">
+  <div class="bg-[#D66235] dark:bg-[#D66235] relative ">
+    <NuxtImg src="/feedback.png" class="absolute w-full top-[-110px]" />
     <div class="container">
       <div>
         <h2 class="title text-center text-[45px]">Ariza qoldirish.</h2>

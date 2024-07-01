@@ -3,9 +3,9 @@ let forLength = 4;
 </script>
 <template>
   <div class="relative h-[97px]">
-    <NuxtImg src="/feedback.png" class="absolute w-full" />
   </div>
-  <div class="bg-[#D66235] dark:bg-[#D66235]">
+  <div class="bg-[#D66235] dark:bg-[#D66235] relative">
+    <NuxtImg src="/feedback.png" class="absolute w-full  top-[-111px]" />
     <div class="container">
       <div>
         <h2 class="title text-center text-[45px]">
@@ -18,7 +18,7 @@ let forLength = 4;
       >
         <div class="" v-for="item in forLength" :key="item">
           <div class="text-center">
-            <div>
+            <div class="rounded-xl overflow-hidden">
               <SharedYoutubeVideo
                 videoUrl="https://youtu.be/uv0LekSBlAc?si=kmilK5t0Kp9RrjUw"
               />
